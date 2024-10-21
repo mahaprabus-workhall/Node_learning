@@ -1,0 +1,66 @@
+1)install packages using npm
+2)npm init -> to create a json file step by step
+3)npm init --yes -> to create a json file directly by default value
+
+//installing 3rd party libraries
+4)npm install underscore 
+5)npm install mongoose 
+
+git ignore to remove node-modules ,while pushing into git
+
+sematic versioning or semvar
+
+Major - New feature,It breaks the application 
+Minor - new features
+Patch - bug fixes
+
+"^4.3.2"
+"~4.3.2" //tilde
+
+npm list --depth==0
+
+npm view mongoose
+npm view mongoose dependencies
+npm view mongoose versions
+
+6)install specific version
+
+npm i monggose@2.4.2
+
+7)updating the local packages
+
+npm outdated => display old
+npm update =>install wanted versions
+
+npm i -g npm -check-updates =>install latest version
+
+ncu -u =>update the package.json
+npm ignore
+
+8)dev dependencies
+js hint - static analysis for js code
+
+npm i jshint --save --dev
+
+9)uninstall packages
+
+un or uninstall
+npm un mongoose
+
+10)working with global packages
+
+-g 
+npm -g outdated
+
+11)publishing a package
+
+npm adduser =>new user 
+npm login =>old user
+
+npm publishing
+
+12)updating a publishing package
+
+npm version minor 
+
+npm publish
