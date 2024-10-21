@@ -13,8 +13,8 @@ function subtract(a,b){
     return a-b;
 }
 
-function module(a,b){
+function modulo(a,b){
     return a%b;
 }
 
-module.exports={add,multiply,subtract,divide,module}
+module.exports={add,multiply,subtract,divide,modulo}
