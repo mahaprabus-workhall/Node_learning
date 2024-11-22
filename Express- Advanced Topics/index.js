@@ -46,6 +46,6 @@ app.get('/',(req,res)=>{
     res.render('index',{title:'Express app',message:"hello everybody"})
 })
 
-let port = process.env.port || 3000
+let port = process.env.port || 3005
 app.listen(port,console.log(`Listeining in the port ${port}`))
 
