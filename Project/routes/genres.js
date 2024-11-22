@@ -13,8 +13,8 @@ const genres=[
     {id:3,name:'commercial'}
 ]
 router.get('/',async (req,res)=>{
-        // throw new Error('could not get the genres')
-        const genresS=await Genre.find()
+                                              // throw new Error('could not get the genres')
+       const genresS=await Genre.find()
         res.send(genresS)
 
 })
