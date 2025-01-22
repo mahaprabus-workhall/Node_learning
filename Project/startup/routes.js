@@ -5,6 +5,7 @@ const movie=require('../routes/movies')
 const rental = require('../routes/rental')
 const User=require('../routes/user')
 const auth=require('../routes/auth')
+const create_folder_and_file=require('../routes/create_folder_and_file')
 const err=require('../middleware/error')
 const express=require('express')
 
@@ -17,6 +18,7 @@ module.exports=function(app){
     app.use('/api/rentals',rental)
     app.use('/api/user',User)
     app.use('/api/auth',auth)
+    app.use('/api/create_folder_and_file',create_folder_and_file)
     
     app.use(err)
     
