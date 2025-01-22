@@ -8,5 +8,5 @@ require('./startup/mongoDb')()
 require('./startup/logging')()
 require('./startup/config')()
 
-const port=process.env.port || 3000
+const port=process.env.port || 8120
 app.listen(port,logger.info(`The server is listening on ${port}`))
